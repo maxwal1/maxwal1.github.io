@@ -6,20 +6,20 @@
 header {
   background-color: green;
   height:100px;
-  width:600px;
+  width:100%;
 
 }
 nav{
   background-color: orange;
   height:100px;
-  width:600px;
+  width:100%;
 }
 
 
 main{
   background-color: turquoise;
   height:500px;
-  width:500px;
+  width:70%;
 }
 aside{
   background-color: red;
@@ -27,22 +27,36 @@ aside{
   width:100px;
   background-color: yellow;
   height:500px;
-  width:100px;
+  width:30%;
 }
 
 footer{
   background-color: blue;
   height:100px;
-  width:600px;
+  width:100%;
 }
 
 #mainwrapper{
   display:flex;
+  flex-direction: row;
 }
 
 #wrapper{
-width: 600px;
+width: 100%;
   margin-left: auto;
   margin-right: auto;
 
+}
+@media only screen and (max-width: 600px) {
+
+  #mainwrapper{
+    display:flex;
+    flex-direction: column;
+  }
+main{
+  width: 100%;
+}
+aside{
+width:  100%;
+  }
 }
