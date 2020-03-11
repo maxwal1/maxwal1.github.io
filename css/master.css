@@ -1,37 +1,36 @@
-  h1{
-    background-color: red;
 
+  h1{
+    text-align: center;
   }
 
 header {
-  background-color: green;
-  height:100px;
+  background-color: black;
+  height:50px;
   width:100%;
 
 }
 nav{
-  background-color: orange;
-  height:100px;
+  background-color: black;
+  height:50px;
   width:100%;
+  text-align: center;
 }
 
 
 main{
-  background-color: turquoise;
+  background-color: black;
   height:500px;
-  width:70%;
+  width:100%;
+  color: white;
 }
 aside{
-  background-color: red;
+  background-color: black;
   height:500px;
-  width:100px;
-  background-color: yellow;
-  height:500px;
-  width:30%;
+  width:0%;
 }
 
 footer{
-  background-color: blue;
+  background-color: black;
   height:100px;
   width:100%;
 }
@@ -47,6 +46,31 @@ width: 100%;
   margin-right: auto;
 
 }
+
+/*
+#boxwrapper {
+height:50%;
+width: 100%;
+background-color:grey;
+display: flex;
+}
+#bottomcenter{
+  height:50%;
+  width:100%;
+  background-color: lightblue;
+}
+#boxleft{
+  height:100%;
+  width:50%;
+  background-color: red;
+}
+#boxright{
+  height:100%;
+  width:50%;
+  background-color: black;
+}
+
+*/
 @media only screen and (max-width: 600px) {
 
   #mainwrapper{
@@ -60,3 +84,21 @@ aside{
 width:  100%;
   }
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn{
+  padding: 5px 10px;
+  border: none;
+  background: black;
+  transition: .3s;
+  color: white;
+}
+.btn:hover{
+  background: white;
+color: black;
+}
+
+ align-text:active
