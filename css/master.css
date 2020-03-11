@@ -4,13 +4,13 @@
   }
 
 header {
-  background-color: black;
+  background-color: white;
   height:50px;
   width:100%;
 
 }
 nav{
-  background-color: black;
+  background-color: white;
   height:50px;
   width:100%;
   text-align: center;
@@ -18,19 +18,19 @@ nav{
 
 
 main{
-  background-color: black;
+  background-color: white;
   height:500px;
   width:100%;
-  color: white;
+  color: black;
 }
 aside{
-  background-color: black;
+  background-color: white;
   height:500px;
   width:0%;
 }
 
 footer{
-  background-color: black;
+  background-color: white;
   height:100px;
   width:100%;
 }
@@ -86,19 +86,29 @@ width:  100%;
 }
 a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .btn{
   padding: 5px 10px;
   border: none;
-  background: black;
+  background: white;
   transition: .3s;
-  color: white;
+  color: black;
 }
 .btn:hover{
-  background: white;
-color: black;
+  background: black;
+color: white;
 }
 
- align-text:active
+ p{
+   padding: 20px;
+   font-family: arial;
+   line-height: 1.5em; /*rad avstånd*/
+ }
+
+ .box {
+   background-image: url(../<img/chassi.jpg);
+   padding: 100px;
+   margin: 100px;
+}
